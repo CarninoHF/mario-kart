@@ -1,4 +1,4 @@
-<h1>Desafio de projeto do Felipão: Mario Kart.JS</h1>
+<h1>Mario Kart.JS</h1>
 
   <table>
         <tr>
@@ -95,7 +95,35 @@
       <li><input type="checkbox" id="pistas-2-3-item" /> <label for="pistas-2-3-item">Nenhum jogador pode ter pontuação negativa (valores abaixo de 0)</label></li>
     </ul>
   </li>
-</ul>
+</ul
+
+  # 🏁 Mario Kart no Terminal
+
+Simulador de corrida inspirado em Mario Kart, desenvolvido em JavaScript para rodar diretamente no terminal com Node.js.
+
+Escolha seu personagem, enfrente um adversário sorteado e dispute uma corrida de 5 rodadas. Em cada rodada, a pista sorteia um tipo de desafio:
+
+- **Reta:** vence quem tiver o maior resultado de dado + velocidade.
+- **Curva:** vence quem tiver o maior resultado de dado + manobrabilidade.
+- **Confronto:** vence quem tiver o maior resultado de dado + poder; o perdedor perde um ponto.
+- Nenhum personagem pode ficar com pontuação negativa.
+- Ao final das 5 rodadas, vence quem tiver mais pontos.
+
+## 🚀 Como começar
+
+### Pré-requisito
+
+Tenha o [Node.js](https://nodejs.org/) instalado na sua máquina.
+
+### Executando o projeto
+
+No terminal, execute:
+
+```bash
+git clone https://github.com/CarninoHF/mario-kart.git
+cd mario-kart
+node src/index.js
+
 
 <b>Condição de vitória:</b>
 
